@@ -57,7 +57,7 @@ export default function Produtos(){
                 </Form.Item>
                 <Form.Item
                     label='Quantidade'
-                    name="Quantity"
+                    name="quantity"
                     rules={[{ required:true, message: "Insira a quantidade"}]}
                 >
                     <InputNumber />

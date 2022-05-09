@@ -51,7 +51,7 @@ export default function EditarProduto(){
                 </div>
             
                 <div className='produto__campo'>
-                    <span className='protudo__label'> Nome do produto: </span>
+                    <span className='protudo__label'> Descrição: </span>
                     <Input value={produtoEdit?.description} onChange={(e) => 
                     { setProdutoEdit((produtoEdit) => {
                         return { ...produtoEdit, description: e.target.value };
@@ -60,7 +60,7 @@ export default function EditarProduto(){
                 </div>
 
                 <div className='produto__campo'>
-                    <span className='protudo__label'> Nome do produto: </span>
+                    <span className='protudo__label'> Quantidade: </span>
                     <InputNumber value={produtoEdit?.quantity} onChange={(e) => 
                     { setProdutoEdit((produtoEdit) => {
                         return { ...produtoEdit, quantity: e };
